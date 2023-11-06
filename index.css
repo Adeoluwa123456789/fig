@@ -323,7 +323,7 @@ section a :hover{
 @media screen and (max-width:478px) {
      
     section{
-        display: flex;justify-content: space-evenly;
+        display: block;justify-content: space-evenly;
         padding-top: 30px;
         padding-bottom: 30px;
     } 
@@ -338,12 +338,12 @@ section a :hover{
     }
     #get{
         background-color: #210EFF;
-        width: 230px;
+        width: 200px;
         font-size: large;
         font-weight: bold;
         color: white;
         position: relative;
-        top: -10px;
+        top: 10px;padding: 10px;
         border-radius: 10px;
         cursor: pointer;
         border: none;
